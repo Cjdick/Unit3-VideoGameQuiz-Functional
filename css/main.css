@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+.main {
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 960px;
+  height: 680px;
+  font-family: 'Press Start 2P', cursive;
+  color:white;
+}
+
+.background-image {
+  height:680px;
+  background-image: url('../images/2014.07.20_Question_Background_v0.02CD.jpg');
+  background-size: 960px 680px;
+  background-repeat: no-repeat;
+}
+
+.question-text {
+	padding-top:2.5%;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:large;
+	height:18%;
+}
+
+.answer-options {
+	display:inline-block;
+	width:60%;
+	margin-left:15%;
+	margin-right:20%;
+	padding-left:5%;
+	height:38%;
+}
+
+.answer-options span {
+	display:block;
+	margin-left: 20px;
+	margin-top:-16px;
+}
+
+.submit-button {
+	margin-top:2%;
+	width:12%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#answer-text {
+	margin-top:5%;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#answer-text h3 {
+	text-align: center;
+}
+
+#next {
+	display: none;
+}
+
+#again {
+	display:none;
+}
